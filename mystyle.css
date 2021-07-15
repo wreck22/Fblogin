@@ -1,0 +1,124 @@
+body {
+  background-color: whitesmoke;
+}
+.full {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(204, 201, 201);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.main {
+  position: relative;
+  top: 30vh;
+  color: #1877f2;
+  width: 400px;
+  left: 20vw;
+  font-size: x-large;
+}
+pr {
+  color: black;
+}
+.container {
+  position: relative;
+  border-radius: 10px;
+  border-color: rgb(206, 201, 201);
+  width: 400px;
+  background-color: white;
+  left: 50vw;
+  padding: 20px 10px 20px 10px;
+  text-align: center;
+  box-shadow: 0px 0px 3px 2px rgb(206, 201, 201);
+}
+.footer {
+  position: relative;
+  background-color: white;
+  height: 300px;
+  top: 20vh;
+  padding: 5px 30px 5px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.txt {
+  width: 350px;
+  height: 40px;
+  border-radius: 4px;
+  border-style: solid;
+  border-color: rgb(192, 182, 182);
+  margin: 10px;
+  font-size: medium;
+  border-width: thin;
+}
+.txt:focus {
+  box-shadow: 0px 0px 0px 2px #1877f2;
+  outline: #1877f2;
+}
+.button {
+  width: 350px;
+  background-color: #1877f2;
+  color: white;
+  font-size: larger;
+  border: none;
+  border-color: #1877f2 #1877f2;
+  border-radius: 4px;
+  padding: 10px;
+  margin: 10px;
+}
+.button:hover {
+  cursor: pointer;
+  background-color: #1668d3;
+}
+.new {
+  background-color: rgb(11, 168, 11);
+  color: white;
+  border: none;
+  text-align: center;
+  font-size: medium;
+  padding: 10px;
+}
+.new:hover {
+  cursor: pointer;
+  background-color: rgb(11, 148, 11);
+}
+a {
+  color: #1877f2;
+  padding: 10px;
+  margin: 20px;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+.label {
+  position: relative;
+  padding: 10px;
+  font-size: medium;
+  width: max-content;
+  left: 53vw;
+}
+.hr1 {
+  margin: 20px;
+}
+.tf {
+  width: 80vw;
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  padding: 0px;
+}
+.td {
+  display: flex;
+  height: 180px;
+  width: 80vw;
+  list-style-type: none;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 0px;
+  align-items: flex-start;
+}
+li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
